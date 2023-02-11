@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/nirmala');
+
+.Navbut {
+    background-color: #5E17EB;
+    color: rgb(255, 253, 250);
+    width: 200px;
+    height: 60px;
+    border: #5E17EB;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.navbar-toggler {
+        background-color: #5E17EB;
+        color: white;
+        border: none;
+}
+@media only screen and (max-width: 900px) {
+   .nav-item {
+          text-align: center;
+          padding: 10px;
+   }
+   .navbar-nav{
+    text-align: center;
+    padding: 10px;
+    background-color: #d0ced4;
+   }
+   .nav-link {
+    text-align: center;
+    padding: 10px;
+   }
+    }

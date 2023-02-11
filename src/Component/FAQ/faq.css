@@ -1,0 +1,36 @@
+
+.logop {
+    color: #5E17EB;
+    font-family: 'Nirmala UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37.3134px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: capitalize;
+    }
+    .accord {
+        font-size: 17.77px;
+   }
+.accordion-simple > active {
+    display: block;
+}
+
+.accordion__faq .inactive {
+    display: none;
+}
+.accordion-items {
+    border: 2px solid #5E17EB;
+    background-color: #5E17EB;
+    border-radius:  6.3258px;
+}
+
+.accordion-header {
+    background-color: #5E17EB;
+}
+@media(max-width:900px){
+    .accord {
+         font-size: 6.33px
+    }
+
+}

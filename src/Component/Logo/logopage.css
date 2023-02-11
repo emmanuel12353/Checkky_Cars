@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+.logop {
+color: #5E17EB;
+font-family: 'Nirmala UI';
+font-style: normal;
+font-weight: 700;
+font-size: 37.3134px;
+line-height: 44px;
+text-align: center;
+text-transform: capitalize;
+margin-top: 70px;
+}
+.img1 {
+    width: 100%;
+    margin-right: 40px;
+    padding-right: 40px;
+}
+   
+    @media(max-width:900px){
+        .logop {
+            color: #5E17EB;
+            font-family: 'Nirmala UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14.1px;
+            line-height: 44px;
+            text-transform: capitalize;
+            margin-top: 70px;
+            margin-bottom: 40px;
+            } 
+            .pik {
+                margin-left: 20px;
+            }
+
+    }

@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/nirmala');
+
+.card{
+    padding:10px;
+    height:250px;
+    border:none;
+    -webkit-box-shadow: 0px 1px 9px 3px rgba(219,210,219,1);
+-moz-box-shadow: 0px 1px 9px 3px rgba(219,210,219,1);
+box-shadow: 0px 1px 9px 3px rgba(219,210,219,1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.logop {
+    color: #5E17EB;
+    font-family: 'Nirmala UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37.3134px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: capitalize;
+    }
+    .top1 {
+        background-color: #FFD6C6;
+    }
+    .top2 {
+        background-color: #FFEAB2;
+    }
+    .top3 {
+        background-color: #BEDCF2;
+    }
+    .top {
+        width: 100px;
+    }
+    .top11 {
+         font-size: 25px;
+         font-weight: 700;
+         color: white;
+         padding-top: 10px;
+         text-align: center;
+    }
+    .top12 {
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        padding-top: 4px;
+        text-align: center;
+   }
+
+   @media(max-width:900px){
+  
+    .logop {
+        color: #5E17EB;
+        font-family: 'Nirmala UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27.1px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: capitalize;
+        }
+        .top11 {
+            font-size: 12.2px;
+            font-weight: 700;
+            color: white;
+            padding-top: 10px;
+            text-align: center;
+       }
+       .top12 {
+           font-size: 7.32px;
+           font-weight: 400;
+           color: white;
+           padding-top: 4px;
+           text-align: center;
+      }
+}

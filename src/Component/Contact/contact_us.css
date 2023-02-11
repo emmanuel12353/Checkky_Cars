@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/nirmala');
+
+.logop {
+    color: #5E17EB;
+    font-family: 'Nirmala UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: capitalize;
+    }
+.container-fluid{background-color: transparent}
+.msg-form{background-color: white;padding: 20px}
+.pad-icon{padding-top: 50px;padding-left: 20px}
+.pad-icon a{text-decoration: none;margin-right: 40px}
+.input-group input:focus{border: 1px solid blue}
+.pad-icon a:active{height: 30px; width: 30px; background-color: #0080ff; border-radius: 100%}
+.textb {
+    font-family: Nirmala UI;
+    font-size: 32px;
+    color: #6E63ED;
+    font-weight: 700;
+}
+#bordering a:active{border:1px solid #0080ff}
+.contactcon {
+       list-style-type: none;
+}
+.contactconus {
+      list-style: none;
+      list-style-type: none;
+      color: #5E17EB;
+      margin-top: 10px;
+}
+.con {
+    background-color: #6E63ED;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 141.98px;
+    height: 43.75px;
+    margin-left: 15px;
+}
+.fa-phone {
+         color: #5E17EB;
+}
+.conicon{
+    color: white;
+}
+@media(min-width:568px){
+    .container-fluid{
+        margin: 100px 30px;
+        width: 96%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+@media(max-width:900px){
+    .logop {
+        color: #5E17EB;
+        font-family: 'Nirmala UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size:  27.1px;
+        line-height: 44px;
+        text-align: center;
+        text-transform: capitalize;
+        }
+    .container-fluid{margin: 10px 10px;width: 94%;padding-top: 20px;padding-bottom: 20px}
+    .textb {
+        font-family: 'Nirmala UI';
+        font-size: 18px;
+        color: #6E63ED;
+        font-weight: 700;
+    }
+.pad{padding-top: 20px}
+}

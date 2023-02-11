@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/nirmala');
+
+.firstdiv {
+    overflow: hidden;
+}
+.header {
+     margin-top: 40px;
+}
+.hearp {
+    margin-top: 120px;
+}
+.heat {
+     padding-top: 40px;
+}
+.hearo {
+      margin-top: 80px;
+}
+.hearoe {
+    font-size: 65.95px;
+    font-weight: 700;
+    font-family: 'Nirmala ui';
+    color: #5E17EB;
+}
+.lead {
+    color: #0A1017;
+    font-family: 'Nirmala ui';
+    font-weight: 350;
+    font-size: 20px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+    .hearo {
+        margin-top: 10px;
+  }
+    .header {
+        margin-top: 10px;
+   }
+   .heat {
+        padding-top: 20px;
+   }
+   .hearp {
+        margin-top: 10px;
+   }
+    .hearoe {
+        font-size: 30.16px;
+        font-weight: 700;
+        font-family: 'Nirmala ui';
+        color: #5E17EB;
+        line-height: 51.34px;
+    }
+    .lead {
+        color: #0A1017;
+        font-family: 'Nirmala ui';
+        font-weight: 350;
+        font-size: 15.52px;
+        line-height: 21.72px;
+    }
+    .img-fluid {
+        width: 100%;
+        margin-left: 150px;
+        margin-top: -50px;
+    }
+     }

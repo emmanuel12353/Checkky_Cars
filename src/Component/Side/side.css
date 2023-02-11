@@ -1,0 +1,22 @@
+.filt {
+    flex: 4;
+    background-color: rgba(162, 121, 248, 0.05);
+}
+
+.filtmain {
+    font-size: 25px;
+    font-weight: 700;
+    color: #5E17EB;
+}
+.filtmain1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #5E17EB;
+}
+.form-check {
+     margin-left: 20px;
+}
+.bi {
+    color: #5E17EB;
+    font-size: 20px;
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+       .height{
+        height: 100vh;
+       }
+       
+
+       .search{
+         border: 2px solid #5E17EB;
+         border-radius: 20px;
+         padding: 10px;
+       position: relative;
+       background-color: transparent;
+         
+       }
+       .searchp {
+            font-size: 22px;
+            font-weight: 600;
+            color: #5E17EB;
+            display: none;
+       }
+       .but2 {
+            width: 100%;
+            height: 60px;
+            margin: 2px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            border: 1px solid rgba(162, 121, 248, 0.05);
+            background-color: rgba(162, 121, 248, 0.05);
+            padding: 10px;
+       }
+
+    .buti {
+       background-color:rgba(162, 121, 248, 0.05);
+       border: none;
+       color: rgb(0, 0, 0);
+       font-weight: 400;
+       margin: 2px;
+       height: 60px;
+       width: 100%;
+    }
+    .submit {
+      background-color:#5E17EB;
+      border: none;
+      color: white;
+      margin: 2px;
+      font-weight: 400;
+      font-size: 14px;
+      font-weight: 800;
+      height: 60px;
+      width: 100%;
+   }
+   .submit1 {
+      background-color:#5E17EB;
+      border: none;
+      color: white;
+      margin: 2px;
+      font-weight: 400;
+      height: 60px;
+      width: 100%;
+   }
+   .colsubmit {
+              display: none;
+   }
+   @media only screen and (max-width: 900px) {
+      .searchp {
+         font-size: 22px;
+         font-weight: 600;
+         color: #5E17EB;
+         display: block;
+    }
+    .colsubmit {
+      display: block;
+}
+.colsubmit2 {
+   display: none;
+}
+    }
